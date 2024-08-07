@@ -11,6 +11,11 @@ const nextConfig = {
             hostname: optimizelyCmsUrl.hostname,
             port: optimizelyCmsUrl.port,
             pathname: '/globalassets/**',
+          },
+          {
+            protocol: 'https',
+            hostname: 'app-ocxcmarupow9j5a0p001.cms.optimizely.com',
+            pathname: '/globalassets/**',
           }
         ],
     },

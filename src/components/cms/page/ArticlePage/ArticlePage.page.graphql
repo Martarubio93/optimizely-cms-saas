@@ -10,4 +10,18 @@ fragment ArticlePageData on ArticlePage {
   articleBody {
     json
   }
+  Text {
+    Title
+    Text
+    Button {
+      Text
+      Link {
+        base
+        internal
+        hierarchical
+        default
+        type
+      }
+    }
+  }
 }
